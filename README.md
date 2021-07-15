@@ -30,6 +30,6 @@ When writing to an export log the messages will be written into a JSON object an
 - - If you are exporting the data you will need to supply a file name. 
 
 ## CLI Usage & Command line arguments
-Message Mover also supports CLI inputs, EG: 
+Message Mover also supports CLI inputs, EG:
     python3 messageMover.py if=SubKey/Channel/Token of=SubKey/PubKey/Channel/Token || filename.json duration=1||30||all verbose=true
-  
+    
