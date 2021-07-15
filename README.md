@@ -10,7 +10,7 @@ This is used in situations where you need to clone or export a channels contents
 In order to grab messages from a channel you need: 
 1. PubNub Subkey
 2. Channel Name
-3. PAM Token (Optional)
+3. SecretKey (Optional, only needed if PAM is enabled.)
 
 ### Destination
 Once you have the messages you need to do something with them. 
@@ -35,5 +35,5 @@ python3 messageMover.py
 ## CLI Usage & Command line arguments
 Message Mover also supports CLI inputs, EG:
 ```python
-python3 messageMover.py if=SubKey/Channel/Token of=SubKey/PubKey/Channel/Token || filename.json duration=1||30||all verbose=true
+python3 messageMover.py i=SubKey/SecretKey/Channel o=SubKey/PubKey/SecretKey/Channel || filename.json duration=1||30||all verbose=true
 ```
