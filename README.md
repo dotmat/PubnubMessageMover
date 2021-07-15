@@ -23,7 +23,9 @@ When writing to a new channel, you will need to provide both the Subkey, Pubkey 
 When writing to an export log the messages will be written into a JSON object and saved as a filename.json in the same directory as the script. 
 
 ## Usage
-    python3 messageMover.py
+```python
+python3 messageMover.py
+```
 - Message Mover will ask you for the origin SubKey, channel & time window (1 day, 30 days or all the messages)
 - Message Mover will then ask you for a destination. 
 - - If you are moving the messsages to another channel you will need to supply PubKey, Subkey, PAM token (if needed) and channel name. 
@@ -31,5 +33,6 @@ When writing to an export log the messages will be written into a JSON object an
 
 ## CLI Usage & Command line arguments
 Message Mover also supports CLI inputs, EG:
-    python3 messageMover.py if=SubKey/Channel/Token of=SubKey/PubKey/Channel/Token || filename.json duration=1||30||all verbose=true
-    
+```python
+python3 messageMover.py if=SubKey/Channel/Token of=SubKey/PubKey/Channel/Token || filename.json duration=1||30||all verbose=true
+```
