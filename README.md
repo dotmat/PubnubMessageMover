@@ -17,7 +17,8 @@ Once you have the messages you need to do something with them.
 1. Write to a different Subkey and/or channel. 
 2. Export to JSON file.
 
-When writing to a new channel, you will need to provide both the Subkey, Pubkey and channel name. 
+When writing to a new channel, you will need to provide both the Subkey, Pubkey and channel name.
+
 🛑 Important! In order to preserve the original timetokens for when you move messages to a new channel you MUST reach out to support to get them to enable PTTO (publish timetoken override) More info can be found at: <https://support.pubnub.com/hc/en-us/articles/360051973351-How-to-import-your-legacy-data-into-PubNub-Storage> 🛑
 
 When writing to an export log the messages will be written into a JSON object and saved as a filename.json in the same directory as the script. 
